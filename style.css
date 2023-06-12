@@ -19,7 +19,7 @@ nav {
     background-image: url('asssets/fruitbkg.jpg');
     background-size: cover;
     text-align: center;
-    height: 275px;
+    height: 400px;
   
     position: static;
     top: 0;
@@ -31,6 +31,8 @@ nav {
 .logo img {
   width: 100px;
   height: 50px;
+  margin: 10px;
+;
 }
 
 .menu {
@@ -50,13 +52,15 @@ nav {
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
-  font-family: ver;
+  font-family:
+  font-size: 20px;
+
 }
 .menu li a:hover{
     color: red;
 }
 
-.search-bar {
+/* .search-bar {
   margin-left: auto;
 }
 
@@ -70,7 +74,7 @@ nav {
   color: #fff;
   border: none;
   cursor: pointer;
-}
+} */
   #menu-toggle {
     display: none;
   }
