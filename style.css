@@ -1,0 +1,259 @@
+*{
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(248,232,217);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+ border-bottom: rgb(217, 201, 187);
+  
+}
+.background-image{
+    padding: 180px 0 100px 0;
+    background-image: url('asssets/fruitbkg.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 450 px;
+  
+    position: static;
+    top: 0;
+    left: 0;
+  
+    
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 20px;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-family: ver;
+}
+.menu li a:hover{
+    color: red;
+}
+
+.search-bar {
+  margin-left: auto;
+}
+
+.search-bar input[type="text"] {
+  padding: 6px;
+}
+
+.search-bar button {
+  padding: 6px 10px;
+  background-color: #e08803;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+  #menu-toggle {
+    display: none;
+  }
+  .menu-icon{
+    display: none;
+  }
+/* .home{
+    background-color: 248,232,217;
+    padding: 0 7vw;
+  }
+.main_slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.main_slide div:nth-child(2){
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+} */
+
+ header {
+        background-color: none;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 1px solid none;
+        font-family: 'Quicksand', sans-serif;
+     
+      }
+      
+      /* Style for heading */
+      h1 {
+        color: #23257b;
+        font-size: 48px;
+        margin: 0;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 0 0 15px rgb(255, 238, 156);
+    }
+      
+      /* Style for subheading */
+      h2 {
+        color: #666;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: bold;
+         text-shadow: 0 0 10px rgb(255, 255, 255);
+      }
+      
+      /* Style for image */
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Style for main content */
+      main {
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 20px;
+        background-color:none;
+        
+      }
+      
+      /* Style for footer */
+      footer {
+        background-color: #008000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+      }
+
+
+/* //product */
+.product {
+    padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+  .logo img {
+    width: 80px;
+    height: 40px;
+  }
+  nav{
+    padding: 9px;
+  }
+  .menu {
+    display: none;
+  }
+
+  .search-bar {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .search-bar input[type="text"] {
+    width: auto;
+    padding: 6px;
+  }
+
+  .search-bar button {
+    padding: 6px;
+    margin-top: 10px;
+    width: 80%;
+  }
+.menu li a{
+    padding: 5px;
+  }
+  
+  
+  /* Show the menu items in a dropdown on mobile */
+  .menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .menu-dropdown li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .menu-dropdown li a {
+    padding: 8px;
+  }
+  
+  /* Style the menu icon */
+  .menu-icon {
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    display: flex;
+  }
+  
+  /* Hide the checkbox */
+  #menu-toggle {
+    display: none;
+  }
+  
+  /* Show the menu when the checkbox is checked */
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+    
+  }
+}
+
+.buyBtn {
+  display: inline-block;
+  width: 100px;
+  padding: 10px 20px;
+   background-color: rgb(248,232,217);
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.buyBtn:hover {
+   background-color: rgb(185, 175, 167);
+}
+
+.buyBtn a {
+  color: #070606;
+  text-decoration: none;
+}
